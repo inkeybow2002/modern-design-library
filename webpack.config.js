@@ -20,7 +20,7 @@ module.exports = {
       }
     ]
   },
-  devtool: 'eval-source-map', // Changed to eval-source-map for better performance during development
+  devtool: 'source-map', // Changed to source-map for improved debugging
   devServer: {
     static: {
       directory: path.join(__dirname, 'dist'),
