@@ -22,6 +22,10 @@ module.exports = {
   },
   devtool: 'inline-source-map', // Use inline-source-map for faster builds
   devServer: {
-    static: './dist'
+    static: {
+      directory: path.join(__dirname, 'dist'),
+    },
+    compress: true,
+    port: 9000,
   }
 };
