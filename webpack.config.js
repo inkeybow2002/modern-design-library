@@ -20,6 +20,7 @@ module.exports = {
       }
     ]
   },
+  devtool: 'source-map', // Enable source maps for easier debugging
   devServer: {
     static: './dist'
   }
