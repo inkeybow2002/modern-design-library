@@ -30,5 +30,6 @@ module.exports = {
     client: {
       overlay: true,
     }, // Added client overlay for better error visibility
+    hot: true, // Enable Hot Module Replacement for better development experience
   }
 };
