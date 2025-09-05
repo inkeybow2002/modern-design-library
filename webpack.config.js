@@ -16,7 +16,11 @@ module.exports = {
       },
       {
         test: /\.css$/, // Handle CSS files with style-loader and css-loader
-        use: ['style-loader', 'css-loader']
+        use: ['style-loader', 'css-loader'],
+        // Added options for better CSS handling
+        options: {
+          importLoaders: 1
+        }
       }
     ]
   },
