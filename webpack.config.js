@@ -20,7 +20,7 @@ module.exports = {
       }
     ]
   },
-  devtool: 'inline-source-map', // Use inline-source-map for faster builds
+  devtool: 'eval-source-map', // Changed to eval-source-map for better performance during development
   devServer: {
     static: {
       directory: path.join(__dirname, 'dist'),
