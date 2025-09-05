@@ -21,6 +21,6 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: './dist'
+    static: './dist'
   }
 };
